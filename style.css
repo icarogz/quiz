@@ -1,0 +1,63 @@
+
+body {
+    font-size: larger;
+    /* margin: 10px; */
+    background-color: rgb(228, 228, 228);
+}
+
+#answer-bar {
+    visibility: hidden;
+}
+
+.top-bar {
+    display:block;
+    max-width: auto;
+    background: rgb(182,160,240);
+    background: radial-gradient(circle, rgba(182,160,240,1) 0%, rgba(118,208,246,1) 100%, rgba(63,250,251,1) 100%);
+    padding:15px;
+    margin:0px;
+}
+
+.top-left-bar {
+    margin-left: 50px;
+}
+.top-right-bar {
+    float: right;
+    text-align: right;
+    margin-right: 50px;
+}
+
+.answerBtn {
+margin-top: 10px;
+background-color: #5e6ce8;
+border-color: #3B4BE3;
+}
+
+.answerPara {
+    margin-top: 14px;
+}
+
+#start, #high-scores-btn {
+    margin-top: 10px;
+}
+
+#high-scores-btn {
+    display: none;
+}
+
+.name-input-row {
+    display: none;
+}
+
+.even-row {
+    background-color: #FEE7D7;
+}
+
+.odd-row {
+    background-color:#FEF2EC;
+}
+
+#submit-score {
+    margin: 10px;
+}
+
