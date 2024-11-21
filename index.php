@@ -3,7 +3,7 @@
 ?>          
 <!DOCTYPE html>
 <html lang="en">
-<?php include 'conexao.php '?>
+<?php include 'conexao.php'?>
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -29,8 +29,8 @@
 <body>
 
   <header class='top-bar'>
-    <a href="#" class="top-left-bar" id="top-left-high-scores">RECORDES</a>
-    <span id='timer' class="top-right-bar">Tempo</span>
+    <a href="#" class="top-left-bar" id="top-left-high-scores">QUIZ</a>
+    <span id='timer' class="top-right-bar">TEMPO</span>
     <span id='timer' class="top-right-bar">Bem vindo,    <?php echo($_SESSION['nome']);?></span>
   </header>
 
@@ -45,22 +45,23 @@
         <form id="name-input-form" method="POST" action="point.php">
           <div for="name-text">envie sua pontuação </div>
           <a src="./point.php" id="name-text">
-            </a>
-          
+            </a>         
        
         </form>
-        <button type="submit" class="btn btn-success" id="submit-score">enviar</button>
+        <button type="submit" class="btn btn-success" id="submit-score">Enviar</button>
       </div>
     </section>
 
     <section class='container' id='quiz'></section>
 
-    <button type="button" class="btn btn-primary" id='start'>INICIAR</button>
-    <button type="button" class="btn btn-info" id='high-scores-btn'>RECORDES</button>
+    <button type="button" class="btn btn-primary" id='start'>Iniciar</button>
+    <button type="button" class="btn btn-info" id='high-scores-btn'>Recordes</button>
 
     <hr id='answer-bar'>
     <p id="right-wrong"></p>
   </main>
+
+  <div class="floating-image"></div>
 
 </body>
 
